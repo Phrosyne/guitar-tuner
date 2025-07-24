@@ -1,0 +1,38 @@
+body {
+    background-color: #b1abc9;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-background {
+    margin-top: 25px;
+    border-radius: 25px;
+    background-color: #788d88;
+    width: 50%;
+    box-shadow: 5px -3px black;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+    width: 100%;
+}
+
+hr {
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.about {
+    margin-top: 4em;
+    text-align: center;
+}
+
+.keys {
+    margin: 4em 4em;
+    display: flex;
+    justify-content: space-between;
+
+}
