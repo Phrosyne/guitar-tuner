@@ -1,19 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Playwrite+HU:wght@100..400&display=swap');
+
 body {
-    background-color: #b1abc9;
+    background-color: rgb(107, 57, 7);
+    font-family: "Playwrite HU", 'Times New Roman';
     display: flex;
     justify-content: center;
 }
 
 .menu-background {
-    margin-top: 25px;
+    
     border-radius: 25px;
-    background-color: #788d88;
+    background-color: rgba(240, 218, 180, 0.475);
     width: 50%;
-    box-shadow: 5px -3px black;
 }
 
 h1 {
     display: flex;
+    font-family: "Archivo Black", 'Times New Roman';
     justify-content: center;
     margin: 2em 0;
     width: 100%;
@@ -26,13 +31,22 @@ hr {
 }
 
 .about {
-    margin-top: 4em;
+    margin: 4em 2em;
     text-align: center;
 }
 
 .keys {
-    margin: 4em 4em;
+    margin: 6em 4em;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+}
 
+button {
+    width: 10%;
+    margin-bottom: 1em;
+    border-radius: 25px;
+    border: 0;
+    font-size: large;
+    background-color: beige;
 }
