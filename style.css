@@ -13,7 +13,7 @@ body {
     margin: 4% 0;
     border-radius: 25px;
     background-color: rgba(240, 218, 180, 0.475);
-    width: 50%;
+    width: 70%;
     max-width: 700px;
 }
 
@@ -22,7 +22,6 @@ h1 {
     font-family: "Archivo Black", 'Times New Roman';
     justify-content: center;
     margin: 2em 0;
-    width: 100%;
 }
 
 hr {
