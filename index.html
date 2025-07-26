@@ -19,14 +19,35 @@
         </div>
 
         <div class="keys">
-            <button class="btn" id="six" onclick="clickBtn(this);">E</button>
-            <button class="btn" id="five" onclick="clickBtn(this);">A</button>
             <button class="btn" id="four" onclick="clickBtn(this);">D</button>
             <button class="btn" id="three" onclick="clickBtn(this);">G</button>
+            <button class="btn" id="five" onclick="clickBtn(this);">A</button>
             <button class="btn" id="two" onclick="clickBtn(this);">B</button>
+            <button class="btn" id="six" onclick="clickBtn(this);">E</button>            
             <button class="btn" id="one" onclick="clickBtn(this);">E</button>
         </div>
     </div>
+
+    <!-- 
+    Right now its
+    E A
+    D G
+    B E
+
+    and we want
+    D G
+    A B
+    E E
+
+    so the code would look like:
+    <button> d
+    <button> g
+    <button> a
+    <button> b
+    <button> e
+    <button> e
+    
+    -->
 
     <audio id="sixth-string" src="audio/6th-string.m4a"></audio>
     <audio id="fifth-string" src="audio/5th-string.m4a"></audio>
