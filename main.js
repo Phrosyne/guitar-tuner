@@ -8,22 +8,22 @@ const high_e_string = new Audio("/audio/1st-string.m4a");
 function clickBtn(element) {
     let e_id = element.id;
     switch (e_id) {
-        case '6':
+        case "six":
             low_e_string.play();
             break;
-        case '5':
+        case "five":
             a_string.play();
             break;
-        case '4':
+        case "four":
             d_string.play();
             break;
-        case '3':
+        case "three":
             g_string.play();
             break;
-        case '2':
+        case "two":
             b_string.play();
             break;
-        case'1':
+        case "one":
             high_e_string.play();
             break;
 
